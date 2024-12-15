@@ -1,0 +1,126 @@
+{
+  "uuid": "ccce05be84f62b0d94725e53c3a7e0e2",
+  "path": "Offline/JLPCB_DATA_LOGGER",
+  "name": "JLPCB_DATA_LOGGER",
+  "content": "",
+  "created_at": "2023-07-03 10:44:42",
+  "updated_at": "2023-07-05 09:11:54",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "7f7b1f3fbb21d12e60da145632e5a3fb",
+      "title": "JLPCB_DL_Scematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ee3ea7713c58b3b3e5a2c18474d6ba05": 2,
+        "5eea444d14084ae99afc22289f6d2355": 1,
+        "f367c9043b9d696814add546ab641d32": 3,
+        "76d1280f2be942b4a7894b917959b68f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Header-Female-2.54_1x6",
+          3,
+          "HDR-TH_6P-P2.54-V-F",
+          "MICRO_SD_SPI,RTC_6_PIN_SIDE,SUPPORT_ONLY",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE(博穆精密)",
+            "BOM_Manufacturer Part": "2.54-1*6P母",
+            "BOM_Supplier Part": "C40877",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "84f1ed3c8ee94504833047c26b4d21a2",
+            "uuid": "f367c9043b9d696814add546ab641d32"
+          }
+        ],
+        [
+          "Female header1X15P 2.54mm",
+          2,
+          "HDR-TH_15P-P2.54-V-F",
+          "P1,P2",
+          {
+            "BOM_Supplier Part": "C54104",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Female header1X15P 2.54mm",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9113d2c51a594771a42e03539b691133",
+            "uuid": "ee3ea7713c58b3b3e5a2c18474d6ba05"
+          }
+        ],
+        [
+          "Header-Female-2.54_1x5",
+          1,
+          "HDR-TH_5P-P2.54-V-F",
+          "RTC_4_PIN_SIDE",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE(博穆精密)",
+            "BOM_Manufacturer Part": "2.54-1*5P母",
+            "BOM_Supplier Part": "C50950",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5c779b2d00a94a63898d3dd94d7b7ab9",
+            "uuid": "76d1280f2be942b4a7894b917959b68f"
+          }
+        ],
+        [
+          "141-A-111/02",
+          1,
+          "CONN-TH_2P-P5.08_WECO_141-A-111_02",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C3011914",
+            "BOM_Manufacturer": "WECO(威克德诺)",
+            "BOM_Manufacturer Part": "141-A-111/02",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0ed26b010bdb4ee7a613f265548af112",
+            "uuid": "5eea444d14084ae99afc22289f6d2355"
+          }
+        ]
+      ],
+      "updateTime": 1688573514,
+      "createTime": 1688409031,
+      "histories": [],
+      "created_at": "2023-07-03 11:30:31",
+      "updated_at": "2023-07-05 09:11:54"
+    },
+    {
+      "uuid": "27d45af6ebc040a27f2272c673990c04",
+      "puuid": "ccce05be84f62b0d94725e53c3a7e0e2",
+      "title": "PCB_JLPCB_DATA_LOGGER",
+      "filename": "PCB_JLPCB_DATA_LOGGER.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "84f1ed3c8ee94504833047c26b4d21a2": 3,
+        "9113d2c51a594771a42e03539b691133": 2,
+        "0ed26b010bdb4ee7a613f265548af112": 1,
+        "5c779b2d00a94a63898d3dd94d7b7ab9": 1
+      },
+      "BOM": [],
+      "updateTime": 1688420119,
+      "createTime": 1688409440,
+      "histories": [],
+      "created_at": "2023-07-03 11:37:20",
+      "updated_at": "2023-07-03 14:35:19"
+    }
+  ],
+  "sort": [],
+  "title": "JLPCB_DATA_LOGGER",
+  "foldername": "JLPCB_DATA_LOGGER",
+  "schfilename": "JLPCB_DATA_LOGGER.json",
+  "schfilemtime": 1688573514064
+}

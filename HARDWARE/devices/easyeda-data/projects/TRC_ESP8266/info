@@ -1,0 +1,353 @@
+{
+  "uuid": "9b60eb45ae3b5a4281e023ce3cda9cbe",
+  "path": "Offline/TRC_ESP8266",
+  "name": "TRC_ESP8266",
+  "content": "",
+  "created_at": "2023-06-18 07:14:59",
+  "updated_at": "2023-07-05 10:04:26",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "1bf842c1c319fea1384352ea8de3598c",
+      "title": "Temperature Heating Control_V5",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "295fcbce1e27ca97ad15cdb2c7877edf": 5,
+        "bd327621e01e44cda160f17e6dda29e2": 1,
+        "49994aaf15434b12b574931e13ebc392": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "3PIN GS002S-5.0-03P-12-00A(H)",
+          1,
+          "CONN-TH_GOOSVN_GS002S-5.0-03P",
+          "RELAY_CONTROL",
+          {
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "C5142592",
+            "BOM_Manufacturer": "GOOSVN(高胜)",
+            "BOM_Manufacturer Part": "GS002S-5.0-03P-12-00A(H)",
+            "puuid": "60a5cceef88447a99ff168acf9ac3152",
+            "uuid": "bd327621e01e44cda160f17e6dda29e2"
+          }
+        ],
+        [
+          "Female header　2.54 1*5Ｐ",
+          5,
+          "HDR-TH_5P-P2.54-V-F-B",
+          "T1,T2,T3,T4,T5",
+          {
+            "BOM_Supplier Part": "C46341",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Female header　2.54 1*5Ｐ",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a397140d3da04489a903d89df2538560",
+            "uuid": "295fcbce1e27ca97ad15cdb2c7877edf"
+          }
+        ],
+        [
+          "ESP8266 NODEMCU",
+          1,
+          "NODEMCU ESP8266",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "e279e450b5b54d83b9a127f0d6b59161",
+            "uuid": "49994aaf15434b12b574931e13ebc392"
+          }
+        ]
+      ],
+      "updateTime": 1688576666,
+      "createTime": 1687733339,
+      "histories": [],
+      "created_at": "2023-06-25 15:48:59",
+      "updated_at": "2023-07-05 10:04:26"
+    },
+    {
+      "uuid": "634efa5a2d1ef729e13e978128ad27ae",
+      "puuid": "9b60eb45ae3b5a4281e023ce3cda9cbe",
+      "title": "PCB_TRC_ESP8266",
+      "filename": "PCB_TRC_ESP8266.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "66ae7d7fa4f64e7db3682b257b3dcf46": 2,
+        "33b2ec3f3ce14b9fa64e55a9da91f048": 1,
+        "a397140d3da04489a903d89df2538560": 5
+      },
+      "BOM": [],
+      "updateTime": 1687101188,
+      "createTime": 1687099345,
+      "histories": [],
+      "created_at": "2023-06-18 07:42:25",
+      "updated_at": "2023-06-18 08:13:08"
+    },
+    {
+      "uuid": "a66061c5db5edcff50ff08df2c6fedd0",
+      "puuid": "9b60eb45ae3b5a4281e023ce3cda9cbe",
+      "title": "PCB_TRC_ESP8266_2",
+      "filename": "PCB_TRC_ESP8266_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "60a5cceef88447a99ff168acf9ac3152": 1,
+        "a397140d3da04489a903d89df2538560": 5,
+        "1b1575775ab94459ba365aac622367d7": 1
+      },
+      "BOM": [],
+      "updateTime": 1687197302,
+      "createTime": 1687193323,
+      "histories": [],
+      "created_at": "2023-06-19 09:48:43",
+      "updated_at": "2023-06-19 10:55:02"
+    },
+    {
+      "uuid": "9259c443d63f7815faa4f6db6d608d6e",
+      "puuid": "9b60eb45ae3b5a4281e023ce3cda9cbe",
+      "title": "PCB_TRC_ESP8266_3",
+      "filename": "PCB_TRC_ESP8266_3.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "60a5cceef88447a99ff168acf9ac3152": 1,
+        "a397140d3da04489a903d89df2538560": 5,
+        "e279e450b5b54d83b9a127f0d6b59161": 1
+      },
+      "BOM": [],
+      "updateTime": 1687208279,
+      "createTime": 1687202936,
+      "histories": [],
+      "created_at": "2023-06-19 12:28:56",
+      "updated_at": "2023-06-19 13:57:59"
+    },
+    {
+      "uuid": "a8480bc73c23f57751f18cbdb7ed2bc8",
+      "puuid": "9b60eb45ae3b5a4281e023ce3cda9cbe",
+      "title": "PCB_TRC_ESP8266_3.1",
+      "filename": "PCB_TRC_ESP8266_3.1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "60a5cceef88447a99ff168acf9ac3152": 1,
+        "a397140d3da04489a903d89df2538560": 5,
+        "e279e450b5b54d83b9a127f0d6b59161": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1687268103,
+      "createTime": 1687267986,
+      "histories": [],
+      "created_at": "2023-06-20 06:33:06",
+      "updated_at": "2023-06-20 06:35:03"
+    },
+    {
+      "uuid": "806458248bba1c15927384cada274cf4",
+      "puuid": "9b60eb45ae3b5a4281e023ce3cda9cbe",
+      "title": "PCB_TRC_ESP8266_4",
+      "filename": "PCB_TRC_ESP8266_4.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "60a5cceef88447a99ff168acf9ac3152": 1,
+        "a397140d3da04489a903d89df2538560": 5,
+        "e279e450b5b54d83b9a127f0d6b59161": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1687450605,
+      "createTime": 1687448072,
+      "histories": [],
+      "created_at": "2023-06-22 08:34:32",
+      "updated_at": "2023-06-22 09:16:45"
+    },
+    {
+      "uuid": "5e1cba7edef3456bf932c56b38e613a5",
+      "puuid": "9b60eb45ae3b5a4281e023ce3cda9cbe",
+      "title": "PCB_TRC_ESP8266_5",
+      "filename": "PCB_TRC_ESP8266_5.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "60a5cceef88447a99ff168acf9ac3152": 1,
+        "a397140d3da04489a903d89df2538560": 5,
+        "e279e450b5b54d83b9a127f0d6b59161": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1687793597,
+      "createTime": 1687728889,
+      "histories": [],
+      "created_at": "2023-06-25 14:34:49",
+      "updated_at": "2023-06-26 08:33:17"
+    },
+    {
+      "uuid": "8d359e2a7bee5be71316e7068b30fe92",
+      "puuid": "9b60eb45ae3b5a4281e023ce3cda9cbe",
+      "title": "PCB_TRC_ESP8266_6",
+      "filename": "PCB_TRC_ESP8266_6.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "60a5cceef88447a99ff168acf9ac3152": 1,
+        "a397140d3da04489a903d89df2538560": 5,
+        "e279e450b5b54d83b9a127f0d6b59161": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1687896472,
+      "createTime": 1687878852,
+      "histories": [],
+      "created_at": "2023-06-27 08:14:12",
+      "updated_at": "2023-06-27 13:07:52"
+    },
+    {
+      "uuid": "fe633ad03ae4ac49cb164a6d93fb36a8",
+      "puuid": "9b60eb45ae3b5a4281e023ce3cda9cbe",
+      "title": "PCB_TRC_ESP8266_7",
+      "filename": "PCB_TRC_ESP8266_7.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a23c201c22ea45018e2e296078f21d9b": 1,
+        "60a5cceef88447a99ff168acf9ac3152": 1,
+        "a397140d3da04489a903d89df2538560": 5,
+        "e279e450b5b54d83b9a127f0d6b59161": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1688050504,
+      "createTime": 1687960756,
+      "histories": [],
+      "created_at": "2023-06-28 06:59:16",
+      "updated_at": "2023-06-29 07:55:04"
+    },
+    {
+      "uuid": "5ff561a3cb74b3f45cd2f6241ab9712f",
+      "puuid": "9b60eb45ae3b5a4281e023ce3cda9cbe",
+      "title": "PCB_TRC_ESP8266_8",
+      "filename": "PCB_TRC_ESP8266_8.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a23c201c22ea45018e2e296078f21d9b": 1,
+        "60a5cceef88447a99ff168acf9ac3152": 1,
+        "a397140d3da04489a903d89df2538560": 5,
+        "e279e450b5b54d83b9a127f0d6b59161": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1688397584,
+      "createTime": 1688392928,
+      "histories": [],
+      "created_at": "2023-07-03 07:02:08",
+      "updated_at": "2023-07-03 08:19:44"
+    },
+    {
+      "uuid": "4d29017e4fe872a1204271cdcfb78b69",
+      "puuid": "9b60eb45ae3b5a4281e023ce3cda9cbe",
+      "title": "PCB_TRC_ESP8266_8_bottom_registration",
+      "filename": "PCB_TRC_ESP8266_8_bottom_registration.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1688397023,
+      "createTime": 1688396490,
+      "histories": [],
+      "created_at": "2023-07-03 08:01:30",
+      "updated_at": "2023-07-03 08:10:23"
+    }
+  ],
+  "sort": [
+    "b4d9f9003b97f8f56129d303cef9caff",
+    "1bf842c1c319fea1384352ea8de3598c"
+  ],
+  "title": "TRC_ESP8266",
+  "foldername": "TRC_ESP8266",
+  "schfilename": "TRC_ESP8266.json",
+  "schfilemtime": 1688576666461
+}

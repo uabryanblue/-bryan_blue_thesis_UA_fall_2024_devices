@@ -1,0 +1,86 @@
+{
+  "uuid": "9546c4e12056d67af3a5328c6f8a7e57",
+  "path": "Offline/TRC_ESP8266_v5",
+  "name": "TRC_ESP8266_v5",
+  "content": "",
+  "created_at": "2023-06-25 15:48:25",
+  "updated_at": "2023-06-25 15:48:36",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "305ec3d9ace407d33e3946bcba2bedc8",
+      "title": "Temperature Heating Control_V5",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "295fcbce1e27ca97ad15cdb2c7877edf": 5,
+        "bd327621e01e44cda160f17e6dda29e2": 1,
+        "49994aaf15434b12b574931e13ebc392": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "3PIN GS002S-5.0-03P-12-00A(H)",
+          1,
+          "CONN-TH_GOOSVN_GS002S-5.0-03P",
+          "RELAY_CONTROL",
+          {
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "C5142592",
+            "BOM_Manufacturer": "GOOSVN(高胜)",
+            "BOM_Manufacturer Part": "GS002S-5.0-03P-12-00A(H)",
+            "puuid": "60a5cceef88447a99ff168acf9ac3152",
+            "uuid": "bd327621e01e44cda160f17e6dda29e2"
+          }
+        ],
+        [
+          "Female header　2.54 1*5Ｐ",
+          5,
+          "HDR-TH_5P-P2.54-V-F-B",
+          "T1,T2,T3,T4,T5",
+          {
+            "BOM_Supplier Part": "C46341",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Female header　2.54 1*5Ｐ",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a397140d3da04489a903d89df2538560",
+            "uuid": "295fcbce1e27ca97ad15cdb2c7877edf"
+          }
+        ],
+        [
+          "NODEMCU COPY",
+          1,
+          "NODEMCU ESP8266",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "e279e450b5b54d83b9a127f0d6b59161",
+            "uuid": "49994aaf15434b12b574931e13ebc392"
+          }
+        ]
+      ],
+      "updateTime": 1687733305,
+      "createTime": 1687733305,
+      "histories": [],
+      "created_at": "2023-06-25 15:48:25",
+      "updated_at": "2023-06-25 15:48:25"
+    }
+  ],
+  "sort": [],
+  "title": "TRC_ESP8266_v5",
+  "foldername": "TRC_ESP8266_v5",
+  "schfilename": "TRC_ESP8266_v5.json",
+  "schfilemtime": 1687733316780
+}

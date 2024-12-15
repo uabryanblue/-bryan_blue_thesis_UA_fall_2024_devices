@@ -1,0 +1,100 @@
+{
+  "uuid": "504129ecfa6a145abc709f63477b28da",
+  "path": "Offline/JLPCB_DATA_LOGGER_schematic",
+  "name": "JLPCB_DATA_LOGGER_schematic",
+  "content": "",
+  "created_at": "2023-07-03 10:46:01",
+  "updated_at": "2023-07-03 10:46:01",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "5ab70bb8c6b9cf4b369e79172d8b0f37",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "bca0febe0b4c409d8dc9f6cec2aa652f": 1,
+        "49994aaf15434b12b574931e13ebc392": 1,
+        "6a293f559f0148c2b20c3b0fe9fb968e": 1,
+        "95a9d5d979e641a4895f9d384d021afb": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "SDCARD-3.3V-6PIN-HTH",
+          1,
+          "SDCARD-3.,3V-6PIN-HTH",
+          "MICRO_SD_SPI1",
+          {
+            "BOM_Manufacturer": "Aliexpress",
+            "BOM_Manufacturer Part": "Aliexpress",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "868c1d478db5475d9dbf00c450af098f",
+            "uuid": "6a293f559f0148c2b20c3b0fe9fb968e"
+          }
+        ],
+        [
+          "3V3 Battery Screw Terminal Block",
+          1,
+          "SCREW_TERMINAL_BLOCK_2_PIN",
+          "NO1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "HM3173",
+            "puuid": "a23c201c22ea45018e2e296078f21d9b",
+            "uuid": "bca0febe0b4c409d8dc9f6cec2aa652f"
+          }
+        ],
+        [
+          "DS3231 HW-084",
+          1,
+          "DS3231 HW-084",
+          "RTC_I2C",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "a02aa17529cb4231ab65a999dc6cefef",
+            "uuid": "95a9d5d979e641a4895f9d384d021afb"
+          }
+        ],
+        [
+          "ESP8266-12E NodeMCU Development Board",
+          1,
+          "NODEMCU ESP8266",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "e279e450b5b54d83b9a127f0d6b59161",
+            "uuid": "49994aaf15434b12b574931e13ebc392"
+          }
+        ]
+      ],
+      "updateTime": 1688406361,
+      "createTime": 1688406361,
+      "histories": [],
+      "created_at": "2023-07-03 10:46:01",
+      "updated_at": "2023-07-03 10:46:01"
+    }
+  ],
+  "sort": [],
+  "title": "JLPCB_DATA_LOGGER_schematic",
+  "foldername": "JLPCB_DATA_LOGGER_schematic",
+  "schfilename": "JLPCB_DATA_LOGGER_schematic.json",
+  "schfilemtime": 1688406361849
+}

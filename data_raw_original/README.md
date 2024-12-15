@@ -5,11 +5,8 @@ repository: bryan_blue_thesis_UA_fall_2024_devices
 ## Raw Data Content Description
 Part of the  bryan_blue_thesis_UA_fall_2024 repo, but contains the novel hardware, code that was used to collect data for the thesis
 
-### data_raw_original
-Raw data used for 2 point calibrations, and other items that need to be treated as READ ONLY!
+### TC_Calibration
 
-### DEVICE_CODE
-The microPython code base for each of the harware devices used in the experiment and other associated programs.
+2 point calibrations were performed for each thermocouple (TC) used in the heating and control device. The TCs were used to measure heating pad and leaf temperatures.
 
-
-
+The coefficients were entered into the heating and control device's configuration file to ensure accurate readings for each experiment.

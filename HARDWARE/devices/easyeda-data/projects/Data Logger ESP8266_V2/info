@@ -1,0 +1,272 @@
+{
+  "uuid": "b8a82e81e01546a863b1c4df3ce9da08",
+  "path": "Offline/Data%20Logger%20ESP8266_V2",
+  "name": "Data Logger ESP8266_V2",
+  "content": "",
+  "created_at": "2023-06-19 14:04:44",
+  "updated_at": "2023-06-29 07:38:12",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "8343d0001b178002e8f284741dbbbbd1",
+      "title": "Data Logger ESP8266",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "95a9d5d979e641a4895f9d384d021afb": 1,
+        "6a293f559f0148c2b20c3b0fe9fb968e": 1,
+        "49994aaf15434b12b574931e13ebc392": 1,
+        "bca0febe0b4c409d8dc9f6cec2aa652f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "SDCARD-3.3V-6PIN-HTH",
+          1,
+          "SDCARD-3.,3V-6PIN-HTH",
+          "MICRO_SD_SPI",
+          {
+            "BOM_Manufacturer": "Aliexpress",
+            "BOM_Manufacturer Part": "Aliexpress",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "868c1d478db5475d9dbf00c450af098f",
+            "uuid": "6a293f559f0148c2b20c3b0fe9fb968e"
+          }
+        ],
+        [
+          "3V3 Battery Screw Terminal Block",
+          1,
+          "SCREW_TERMINAL_BLOCK_2_PIN",
+          "NO",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "HM3173",
+            "puuid": "a23c201c22ea45018e2e296078f21d9b",
+            "uuid": "bca0febe0b4c409d8dc9f6cec2aa652f"
+          }
+        ],
+        [
+          "DS3231 HW-084",
+          1,
+          "DS3231 HW-084",
+          "RTC_I2C",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "a02aa17529cb4231ab65a999dc6cefef",
+            "uuid": "95a9d5d979e641a4895f9d384d021afb"
+          }
+        ],
+        [
+          "ESP8266-12E NodeMCU Development Board",
+          1,
+          "NODEMCU ESP8266",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "e279e450b5b54d83b9a127f0d6b59161",
+            "uuid": "49994aaf15434b12b574931e13ebc392"
+          }
+        ]
+      ],
+      "updateTime": 1687727360,
+      "createTime": 1687208684,
+      "histories": [],
+      "created_at": "2023-06-19 14:04:44",
+      "updated_at": "2023-06-25 14:09:20"
+    },
+    {
+      "uuid": "732b375a0aef9358c1a4bd55c76d4ac7",
+      "puuid": "b8a82e81e01546a863b1c4df3ce9da08",
+      "title": "PCB_Data Logger ESP8266_V2",
+      "filename": "PCB_Data Logger ESP8266_V2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "868c1d478db5475d9dbf00c450af098f": 1,
+        "a02aa17529cb4231ab65a999dc6cefef": 1,
+        "a23c201c22ea45018e2e296078f21d9b": 1,
+        "e279e450b5b54d83b9a127f0d6b59161": 1
+      },
+      "BOM": [],
+      "updateTime": 1687212144,
+      "createTime": 1687209630,
+      "histories": [],
+      "created_at": "2023-06-19 14:20:30",
+      "updated_at": "2023-06-19 15:02:24"
+    },
+    {
+      "uuid": "1d7698cac4d558b179345e001b872a1c",
+      "puuid": "b8a82e81e01546a863b1c4df3ce9da08",
+      "title": "PCB_Data Logger ESP8266_V3",
+      "filename": "PCB_Data Logger ESP8266_V3.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "868c1d478db5475d9dbf00c450af098f": 1,
+        "a02aa17529cb4231ab65a999dc6cefef": 1,
+        "a23c201c22ea45018e2e296078f21d9b": 1,
+        "e279e450b5b54d83b9a127f0d6b59161": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1687267876,
+      "createTime": 1687267876,
+      "histories": [],
+      "created_at": "2023-06-20 06:31:16",
+      "updated_at": "2023-06-20 06:31:16"
+    },
+    {
+      "uuid": "e7d09a39293590d5cf708fc4115526f3",
+      "puuid": "b8a82e81e01546a863b1c4df3ce9da08",
+      "title": "PCB_Data Logger ESP8266_V4",
+      "filename": "PCB_Data Logger ESP8266_V4.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "868c1d478db5475d9dbf00c450af098f": 1,
+        "a02aa17529cb4231ab65a999dc6cefef": 1,
+        "a23c201c22ea45018e2e296078f21d9b": 1,
+        "e279e450b5b54d83b9a127f0d6b59161": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1687447103,
+      "createTime": 1687443972,
+      "histories": [],
+      "created_at": "2023-06-22 07:26:12",
+      "updated_at": "2023-06-22 08:18:23"
+    },
+    {
+      "uuid": "cd2f90d04d2ca91f3aae58943101dc09",
+      "puuid": "b8a82e81e01546a863b1c4df3ce9da08",
+      "title": "PCB_Data Logger ESP8266_V5",
+      "filename": "PCB_Data Logger ESP8266_V5.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "868c1d478db5475d9dbf00c450af098f": 1,
+        "a02aa17529cb4231ab65a999dc6cefef": 1,
+        "a23c201c22ea45018e2e296078f21d9b": 1,
+        "e279e450b5b54d83b9a127f0d6b59161": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1687789379,
+      "createTime": 1687720067,
+      "histories": [],
+      "created_at": "2023-06-25 12:07:47",
+      "updated_at": "2023-06-26 07:22:59"
+    },
+    {
+      "uuid": "7aa68ef03dd8319e859967f323f4918e",
+      "puuid": "b8a82e81e01546a863b1c4df3ce9da08",
+      "title": "PCB_Data Logger ESP8266_V6",
+      "filename": "PCB_Data Logger ESP8266_V6.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "868c1d478db5475d9dbf00c450af098f": 1,
+        "a02aa17529cb4231ab65a999dc6cefef": 1,
+        "a23c201c22ea45018e2e296078f21d9b": 1,
+        "e279e450b5b54d83b9a127f0d6b59161": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1687896137,
+      "createTime": 1687874115,
+      "histories": [],
+      "created_at": "2023-06-27 06:55:15",
+      "updated_at": "2023-06-27 13:02:17"
+    },
+    {
+      "uuid": "6ffa79bc941b4975f1a486c9ea39e370",
+      "puuid": "b8a82e81e01546a863b1c4df3ce9da08",
+      "title": "PCB_Data Logger ESP8266_V7",
+      "filename": "PCB_Data Logger ESP8266_V7.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "868c1d478db5475d9dbf00c450af098f": 1,
+        "a02aa17529cb4231ab65a999dc6cefef": 1,
+        "a23c201c22ea45018e2e296078f21d9b": 1,
+        "e279e450b5b54d83b9a127f0d6b59161": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1688049492,
+      "createTime": 1687962520,
+      "histories": [],
+      "created_at": "2023-06-28 07:28:40",
+      "updated_at": "2023-06-29 07:38:12"
+    }
+  ],
+  "sort": [],
+  "title": "Data Logger ESP8266_V2",
+  "foldername": "Data Logger ESP8266_V2",
+  "schfilename": "Data Logger ESP8266_V2.json",
+  "schfilemtime": 1687727360315
+}
